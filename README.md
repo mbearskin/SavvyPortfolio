@@ -10,4 +10,4 @@ This is a portfolio of my work from the Savvy Coders Web Dev course!
 
 [Check me out on Linkedin](https://www.linkedin.com/in/marthabearskin/)
 
-#### Email: marthabearskin@gmail.com
+[Email Me](marthabearskin@gmail.com)

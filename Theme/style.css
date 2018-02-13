@@ -1,0 +1,26 @@
+
+  h1 {
+    color: #673ab7;
+    font-size: 5em
+  }
+  p {
+    color:#f99808;
+    background-color: blue;
+  }
+  ul {
+    color: #07c4dc;
+    width: 200px
+  }
+  ol {
+    color: #dc7424;
+  }
+  .backdrop {
+    background-color: #b0f165;
+  }
+  #bright{
+    background-color: #e91e63;
+    width: 150px
+  }
+  .mid-width{
+    width:200px;
+  }
