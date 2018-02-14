@@ -17,6 +17,10 @@
   .backdrop {
     background-color: #b0f165;
   }
+  .container{
+    max-width: 760px;
+    margin: 0 auto;
+  }
   #bright{
     background-color: #e91e63;
     width: 150px
@@ -24,3 +28,26 @@
   .mid-width{
     width:200px;
   }
+#header{
+  color: orange;
+  background-color: green;
+  padding: 10px;
+}
+#header  p{
+  color: hotpink;
+}
+#content{
+  color: purple;
+}
+#footer{
+  color: blue;
+}
+ul.container{
+  background-color: pink;
+}
+ul li:first-child{
+  background-color: purple;
+}
+ul li:nth-child(2n){
+  color:green;
+}
