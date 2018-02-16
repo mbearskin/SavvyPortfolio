@@ -28,6 +28,30 @@
   .mid-width{
     width:200px;
   }
+
+#navigation > ul > li{
+  display: inline;
+  list-style: none;
+}
+#navigation{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.3rem;
+  width: 100vw;
+}
+#navigation .dropdown{
+  display: none;
+}
+
+#navigation a:hover + .dropdown{
+  display: block;
+  position: absolute;
+  left: -1rem;
+}
+#navigation li:first-child{
+  position: relative;
+}
 #header{
   color: orange;
   background-color: green;
