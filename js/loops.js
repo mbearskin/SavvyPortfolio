@@ -1,4 +1,6 @@
-var output = document.querySelector( "#output" );
+/* globals $ */
+
+var output = $( "#output" );
 var list = "<ol>";
 var fizzyBuzz = "<ul>";
 
@@ -7,7 +9,7 @@ for( let i = 1; i <= 10; i++ ){
 }
 list += "</ol>";
 
-output.innerHTML = list;
+output.html = list;
 
 
 for( let i = 1; i <= 100; i++ ){
@@ -26,4 +28,4 @@ for( let i = 1; i <= 100; i++ ){
 }
 
 fizzyBuzz += "</ul>";
-output.innerHTML += fizzyBuzz;
+output.html += fizzyBuzz;
